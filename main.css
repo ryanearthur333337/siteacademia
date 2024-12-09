@@ -1,0 +1,173 @@
+body {
+    background: linear-gradient(135deg, #ff4c4c, #181414, #181414, #535455) no-repeat; /* Cor de fundo do body */
+}
+
+.container {
+    text-align: center;
+    transform: translateY(0);
+    height: 716px;
+    color: rgba(255, 255, 255, 0.527);
+}
+.texto1 p {
+    font-size: 40px;
+    line-height: 0.9; 
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 8px 8px 4px #585858;
+    margin-top: 50px;
+}
+.titulo1 {
+    margin-top: -60px;
+    font-size: 150px;
+    font-family: "Holtwood One SC", serif;
+    letter-spacing: 20px; 
+    text-shadow: 10px 10px 5px #464545;
+}
+.button {
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #ffffff, #878991) no-repeat; 
+    border-radius: 60px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    z-index: 10;
+}
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    width: 20px;
+    position: fixed;
+}
+
+.page1 {
+    margin-top: 150px;
+}
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.527);
+    font-family: "Holtwood One SC", serif;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.option {
+    background-color: rgba(7, 47, 83, 0.753);
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.option p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px; /* Ajuste para melhor espaçamento */
+    font-family: "Bebas Neue", sans-serif;
+}
+.page2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    line-height: 80px;
+    font-size: 100px;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    padding-right: 1400px;
+}
+.title p{
+    line-height: 0.1px; 
+}
+
+.conteudo-direito1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 700px;
+    padding-top: 30px;
+    font-size: 26px;
+    line-height: 0.9; 
+    font-family: "Bebas Neue", sans-serif;
+}
+.conteudo-direito2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    padding-top: 70px;
+    text-align: left;
+    line-height: 0.9; 
+    font-family: "Poppins", sans-serif;
+}
+.conteudo-direito1{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-row-gap: 110px; 
+}
+.conteudo-direito2{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-row-gap: 145px; 
+}
+
+.footer {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 130px;
+    padding-left: 80px;
+    font-family: "Poppins", sans-serif;
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+    margin: 0px  0px 0px 200px;
+}
+.bodybuilder img{
+    width: auto;
+    height: 550px;
+    margin: 0px -1200px 0px 0px;
+    left: 1270px;
+    bottom: -8px;
+    position: absolute;
+}
+.divisao{
+    height: 3px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.comentarios p{
+    color: white;
+    font-size: 20px;
+}
+
+.aspas{
+    scale: -1;
+    margin: -20px;
+    height: 220px;
+    width: auto;
+    padding-left: 10px;
+    
+}
+.page3{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 100px;
+
+}
+
+.comentarios{
+    margin: 50px;
+}
