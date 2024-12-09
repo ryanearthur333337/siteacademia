@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #ff4c4c, #181414, #181414, #535455) no-repeat; /* Cor de fundo do body */
+    background: linear-gradient(135deg,  #535455, #303030, #181414, #535455) no-repeat; /* Cor de fundo do body */
 }
 
 .container {
@@ -62,7 +62,7 @@ body {
 }
 
 .option {
-    background-color: rgba(7, 47, 83, 0.753);
+    background-color: rgba(97, 97, 97, 0.288);
     padding: 20px;
     border-radius: 30px;
     width: 200px;
@@ -71,7 +71,7 @@ body {
 .option p {
     color: white;
     font-size: 25px;
-    margin-bottom: 30px; /* Ajuste para melhor espaçamento */
+    margin-bottom: 30px; /* Ajuste para melhor espaÃ§amento */
     font-family: "Bebas Neue", sans-serif;
 }
 .page2{
@@ -150,24 +150,28 @@ body {
 
 .comentarios p{
     color: white;
-    font-size: 20px;
+    font-size: 28px;
+    font-family: "Bebas Neue", sans-serif;
 }
-
+.comentarios h2{
+    font-family: "Poppins", sans-serif;
+    color: gray;
+}
 .aspas{
     scale: -1;
-    margin: -20px;
-    height: 220px;
+    margin: -60px;
+    height: 200px;
     width: auto;
-    padding-left: 10px;
-    
 }
 .page3{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-gap: 100px;
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
 }
 
 .comentarios{
-    margin: 50px;
+    margin: 100px;
 }
